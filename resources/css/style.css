@@ -29,3 +29,26 @@ div {
 .nav span {
   display: inline-block;
 }
+
+.main {
+  display: flex;
+  justify-content:space-between;
+}
+
+.column_large {
+  display: flex;
+  width: 630px;
+  flex-direction:column;
+}
+
+.column_medium {
+  display: flex;
+  width: 300px;
+  flex-direction:column;
+}
+
+.column_small {
+  display: flex;
+  width: 240px;
+  flex-direction:column;
+}
