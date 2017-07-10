@@ -1,10 +1,6 @@
-body {
-  margin: auto;
-  width: 95%;
-}
 
 div {
-  border: 1px solid darkmagenta;
+  border: 1px solid DarkMagenta;
 }
 
 .header {
@@ -13,44 +9,39 @@ div {
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
+  padding: 10px 0 10px 0;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+.logo{
+  display:flex;
+  justify-content: flex-start;
   color: MediumAquamarine;
+  width: 970px;
 }
 
-.nav {
-  display: flex;
+.nav{
+  display:flex;
+  justify-content: center;
   align-items: center;
+  padding-right: 10px;
+
 }
 
-.nav span {
-  display: inline-block;
+a {
+  padding: 10px;
+  color: black;
 }
 
-.main {
-  display: flex;
+.maincontent {
+  display:flex;
   justify-content:space-between;
 }
 
-.column_left {
-  display: flex;
-  width: 630px;
-  flex-direction:column;
-}
-
-.column_middle {
-  display: flex;
-  width: 300px;
-  flex-direction:column;
-}
-
-.column_right {
-  display: flex;
-  width: 240px;
-  flex-direction:column;
+.column1 {
+display: flex;
+width: 630px;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
 .main_image {
@@ -58,45 +49,103 @@ div {
   background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/main_story.png");
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
-}
-
-.minor_image1 {
-  display: flex;
-  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/fall_season.png");
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-.minor_image2 {
-  display: flex;
-  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/hipster_cameraman.png");
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-.minor_image3 {
-  display: flex;
-  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/cat_ceo.png");
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+  width: 630px;
 }
 
 .main_story {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  width: 630px;
 }
 
-.story {
+.column1_nested {
+  display: flex;
+  width: 630px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.story1 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  width: 300px;
+  height: 300px;
+  order: 1;
+
+}
+
+.story2 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 300px;
+  height: 300px;
+  order: 2;
+}
+
+.story_image1 {
+  display: flex;
+  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/fall_season.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  height: 300px;
+  order: 3;
+  text-align: center;
+}
+
+.story_image2 {
+  display: flex;
+  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/hipster_cameraman.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  height: 300px;
+  order: 4;
+  text-align: center;
+}
+
+.column2 {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.story_image3 {
+  display: flex;
+  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/cat_ceo.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+}
+
+.story3 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 300px;
+}
+
+.story4 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 300px;
+}
+
+.column3 {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
 }
