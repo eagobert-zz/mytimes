@@ -140,7 +140,7 @@ a {
 
 .story_image3 {
   display: flex;
-  background-image: image("./resources/images/cat_ceo.png");
+  background-image: url("./resources/images/cat_ceo.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
