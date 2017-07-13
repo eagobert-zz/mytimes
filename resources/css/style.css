@@ -1,30 +1,40 @@
 
-div {
-  border: 1px solid DarkMagenta;
+
+body {
+  margin: auto;
+  width: 1300px;
+  height: auto;
 }
 
 .header {
   display: flex;
+  position: fixed;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
-  padding: 10px 0 10px 0;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid black;
+  padding: 10px 26px 10px 12px;
+  width: 1300px;
+  z-index: 1;
 }
 
 .logo{
   display:flex;
-  justify-content: flex-start;
   color: MediumAquamarine;
-  width: 970px;
+
 }
 
-.nav{
+.logo p {
+  padding-left: 10px;
+}
+
+.headernav{
   display:flex;
   justify-content: center;
   align-items: center;
-  padding-right: 10px;
-
 }
 
 a {
@@ -35,13 +45,16 @@ a {
 .maincontent {
   display:flex;
   justify-content:space-between;
+  width: 1300px;
+  padding-top: 130px;
+  padding-bottom: 80px;
 }
 
 .column1 {
-display: flex;
-width: 630px;
-flex-direction: column;
-flex-wrap: wrap;
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .main_image {
@@ -52,6 +65,10 @@ flex-wrap: wrap;
   font-size: 40px;
   color: white;
   width: 630px;
+}
+
+.main_image h4 {
+  padding-left: 20px;
 }
 
 .main_story {
@@ -76,14 +93,13 @@ flex-wrap: wrap;
   width: 300px;
   height: 300px;
   order: 1;
-
 }
 
 .story2 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  width: 300px;
+  width: 320px;
   height: 300px;
   order: 2;
 }
@@ -99,6 +115,7 @@ flex-wrap: wrap;
   height: 300px;
   order: 3;
   text-align: center;
+  justify-content: center;
 }
 
 .story_image2 {
@@ -108,10 +125,11 @@ flex-wrap: wrap;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  width: 300px;
+  width: 320px;
   height: 300px;
   order: 4;
   text-align: center;
+  justify-content: center;
 }
 
 .column2 {
@@ -128,6 +146,7 @@ flex-wrap: wrap;
   font-size: 30px;
   color: white;
   width: 300px;
+  text-align: center;
 }
 
 .story3 {
@@ -156,14 +175,49 @@ flex-wrap: wrap;
   text-align: center;
 }
 
-.newsbite_list {
+.newsbite_nav {
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
 }
 
-.newsbite_list p {
+.newsbite_nav p {
   border-bottom: 2px solid black;
   padding: 12px 25px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  height: 300px;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 10px 26px 10px 12px;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer1_text {
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
