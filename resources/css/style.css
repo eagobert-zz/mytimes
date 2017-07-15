@@ -59,7 +59,7 @@ a {
 
 .main_image {
   display: flex;
-  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/main_story.png");
+  background: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/main_story.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
@@ -106,7 +106,7 @@ a {
 
 .story_image1 {
   display: flex;
-  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/fall_season.png");
+  background: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/fall_season.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -120,7 +120,7 @@ a {
 
 .story_image2 {
   display: flex;
-  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/hipster_cameraman.png");
+  background: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/hipster_cameraman.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -140,7 +140,7 @@ a {
 
 .story_image3 {
   display: flex;
-  background-image: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/cat_ceo.png");
+  background: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/cat_ceo.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
