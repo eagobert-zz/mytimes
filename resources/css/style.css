@@ -59,7 +59,7 @@ a {
 
 .main_image {
   display: flex;
-  background: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/main_story.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
@@ -106,7 +106,7 @@ a {
 
 .story_image1 {
   display: flex;
-  background: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/fall_season.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -120,7 +120,7 @@ a {
 
 .story_image2 {
   display: flex;
-  background: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/hipster_cameraman.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -140,7 +140,7 @@ a {
 
 .story_image3 {
   display: flex;
-  background: url("/Users/eagobert/Documents/Codecademy_Projects/Projects/mytimes/resources/images/cat_ceo.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
