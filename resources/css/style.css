@@ -47,7 +47,7 @@ a {
   justify-content:space-between;
   width: 1300px;
   padding-top: 130px;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
 }
 
 .column1 {
@@ -60,6 +60,7 @@ a {
 .main_image {
   display: flex;
   background-image: url("../images/main_story.png");
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
@@ -69,6 +70,10 @@ a {
 
 .main_image h4 {
   padding-left: 20px;
+  padding-top: 80px;
+  width: 630px;
+  height: 240px;
+  margin: 0;
 }
 
 .main_story {
@@ -91,22 +96,29 @@ a {
   font-size: 17px;
   color: black;
   width: 300px;
-  height: 300px;
   order: 1;
+}
+
+.story1 h2{
+  width: 287px;
 }
 
 .story2 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  width: 320px;
-  height: 300px;
+  width: 300px;
   order: 2;
+}
+
+.story2 h2{
+  width: 280px;
 }
 
 .story_image1 {
   display: flex;
   background-image: url("../images/fall_season.png");
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -116,20 +128,23 @@ a {
   order: 3;
   text-align: center;
   justify-content: center;
+  padding-top: 55px;
 }
 
 .story_image2 {
   display: flex;
   background-image: url("../images/hipster_cameraman.png");
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  width: 320px;
+  width: 300px;
   height: 300px;
   order: 4;
   text-align: center;
   justify-content: center;
+  padding-top: 55px;
 }
 
 .column2 {
@@ -141,13 +156,15 @@ a {
 .story_image3 {
   display: flex;
   background-image: url("../images/cat_ceo.png");
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  height: 300px;
   width: 300px;
+  height: 225px;
   text-align: center;
+  padding-top: 75px;
 }
 
 .story3 {
@@ -155,6 +172,11 @@ a {
   font-size: 17px;
   color: black;
   width: 300px;
+}
+
+.story3 h2 {
+  width: 280px;
+  margin: 0;
 }
 
 .story4 {
@@ -194,11 +216,11 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: MediumAquamarine;
-  margin: auto;
-  height: 300px;
+  margin: 0;
   font-family: Verdana;
   font-size: 12px;
-  padding: 10px 26px 10px 12px;
+  padding: 60px 26px 60px 12px;
+  width: 1300px;
 }
 
 .footer1 {
